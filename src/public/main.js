@@ -6,7 +6,7 @@ let elementsToShow = 3;
 if (document.body.clientWidth < 1000) {
   elementsToShow = 1;
 } else if (document.body.clientWidth < 1500) {
-    elementsToShow = 2;
+  elementsToShow = 2;
 }
 
 let sliderContainerWidth = slideContainer.clientWidth;
